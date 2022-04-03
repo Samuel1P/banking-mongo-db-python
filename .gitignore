@@ -5,7 +5,7 @@ python-mongo-venv/
 *.code-workspace
 
 # db files
-db_dir/*
+db_dir/
 
 # mac
 .DS_Store
