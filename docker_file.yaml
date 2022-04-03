@@ -1,0 +1,9 @@
+services:
+  mongo_db_instance:
+    container_name: mongo_db_instance
+    image: mongo
+    ports:
+    - 27017:27017
+    volumes:
+    - /Users/samuel.ip/Documents/Workspace/Learning_Workspace/banking-mongo-db-python/db_dir:/data/db
+version: '3'

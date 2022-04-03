@@ -1,0 +1,11 @@
+# download mongo image
+docker pull mongo
+
+# run mongo as a docker container
+docker run -p 27017:27017 -v /Users/samuel.ip/Documents/Workspace/Learning_Workspace/banking-mongo-db-python/db_dir:/data/db --name mongo_db_instance -d mongo
+
+# run docker compose yaml file
+docker-compose -f docker_file.yaml up  --detach
+
+# open an interactive terminal with docker container
+docker exec -it  mongo_db_instance bash

@@ -1,0 +1,8 @@
+# venv
+python-mongo-venv/
+
+# vs code ws
+*.code-workspace
+
+# mac
+.DS_Store

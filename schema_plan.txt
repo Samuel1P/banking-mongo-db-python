@@ -1,0 +1,38 @@
+Database: banking
+Collection: User, Transactions
+
+
+User = [{
+    "name": str,
+    "email": str,
+    "phone number": int,
+    "account number": int,
+    "balance amount": float,
+    "transaction history": [TransactionID (str),..]
+} .. 
+
+
+TransactionCharges: {
+    Withdrawal: int,
+    Deposit: int,
+    TransactionCharges
+}]
+
+
+Transaction = [
+    {
+        TransactionID: str
+        Transaction Type: 
+        Transaction Time: 
+        Transaction Status:
+        Users Involved: 
+    }
+]
+
+transact_map = {"W": "Withdrawal",
+                "D": "Deposit",
+                "X": "Declined Withdrawal",
+                "I": "Interest Deposit",
+                "Z": "Declined Deposit",
+                "T": "Transaction",
+                "S": "Declined Transaction"}
