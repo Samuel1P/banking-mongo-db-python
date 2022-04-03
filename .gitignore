@@ -6,6 +6,9 @@ python-mongo-venv/
 
 # db files
 db_dir/
+db_dir/*
+.db_dir/
+.db_dir/*
 
 # mac
 .DS_Store
